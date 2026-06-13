@@ -1,0 +1,54 @@
+# 📊 Power Query Data Cleaning Project
+
+## 📌 Overview
+This project demonstrates data cleaning and transformation using Power Query in Excel. It includes operations like cleaning data, splitting and merging columns, removing duplicates, and applying conditional formatting in Excel.
+
+---
+
+## 🧹 1. Data Cleaning
+- Removed null values
+- Fixed spelling errors (e.g., Electroni → Electronics)
+- Standardized text format
+- Changed data types (Text, Number, Date)
+
+---
+
+## 🔀 2. Splitting and Merging Columns
+
+### Splitting
+- Full Name → First Name + Last Name
+- Product Code → Separate components
+
+### Merging
+- First Name + Last Name → Full Name
+- Product attributes combined into single column
+
+---
+
+## 🔁 3. Removing Duplicates
+- Identified duplicate rows using key columns
+- Removed repeated records using Power Query "Remove Duplicates"
+- Ensured clean and unique dataset
+
+---
+
+## 🎨 4. Conditional Formatting (Excel)
+
+After loading data from Power Query:
+- Applied **Data Bars** to Price column
+- Used **Color Scales** to show price variations
+- Highlighted "Electronics" category using custom rules
+
+---
+
+## ⚙️ Tools Used
+- Microsoft Excel
+- Power Query Editor
+- GitHub for documentation
+
+---
+
+## 📈 Outcome
+- Cleaned and structured dataset
+- Improved data accuracy and consistency
+- Visual insights using conditional formatting
